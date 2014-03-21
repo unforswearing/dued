@@ -10,7 +10,9 @@ if dayss is "h" then
 	set morrow to current date
 	set morrow to morrow + hourss * hours
 	set morrow to morrow as text
-	set the clipboard to (do shell script "echo " & morrow & " | sed s/.*,// | sed s/20..// | sed s/:[^..][0-9]//g | sed s/.' '//")
+	set dtoday to (do shell script "echo " & morrow & " | sed s/.*,// | sed s/20..// | sed s/:[^..][0-9]//g | sed s/.' '//")
+	set dtoday to "Today at " & dtoday
+	set the clipboard to dtoday
 	
 else if (count of dued) is 1 then
 	set hourss to "0"
@@ -29,7 +31,3 @@ else if (count of dued) is 2 then
 	set the clipboard to (do shell script "echo " & morrow & " | sed s/:[^..][0-9]//g | sed s/20..//  | sed s/' '//3")
 	
 end if
-
---- http://www.scriptogr.am/unforswearing
---- http://www.github.com/unforswearing
---- notes@theforeverarrow.com
