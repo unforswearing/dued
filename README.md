@@ -1,4 +1,4 @@
-DUED
+dued
 ====
 
 DUEDate -- Formatted dates for plain text notes via applescript. 
