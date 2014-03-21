@@ -13,6 +13,6 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 Thats about all there is to it for now. While this scipt is primarly besed on the `current date` function of Applescript, the formatting of the date makes heavy use of `sed` - I typically find Applescript to be needlessly complicated for formatting text. 
 
-Full documentation will come after things have been cleaned up a bit (adding error checking, etc). Somewhat distant future plans include an [Alfred](http://www.alfredapp.com/) workflow and maybe a System Service.  
+Full documentation will come after things have been cleaned up a bit (adding error checking, etc). Somewhat distant future plans include an [Alfred](http://www.alfredapp.com/) workflow and a System Service.  
 
 You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
