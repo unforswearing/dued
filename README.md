@@ -9,6 +9,6 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 - If you only want the day, enter `d`. Example: 2 days from now would be `2`. The result will be formatted "Monday, March 24"
 
-- If you have a task that is due at a certain time today, type `h t`. The `h` denotes that you will be using only hours and the `t` is the number of hours from the current time the project is due. Example: 5 hours from now would be `h 5`. The result will be formatted "4 PM". 
+- If you have a task that is due at a certain time today, type `h t`. The `h` denotes that you will be using only hours and the `t` is the number of hours from the current time the project is due. Example: 5 hours from now would be `h 5`. The result will be formatted "11 AM". 
 
 Thats about all there is to it for now. Full documentation will come after things have been cleaned up a bit (adding error checking, swapping the entry formatting for only days and only hours (typing 4 pm is faster than running this script at its current stage), etc). You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
