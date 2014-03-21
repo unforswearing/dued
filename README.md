@@ -11,4 +11,8 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 - If you have a task that is due at a certain time today, type `h t`. The `h` denotes that you will be using only hours and the `t` is the number of hours from the current time the project is due. Example: 5 hours from now would be `h 5`. The result will be formatted "11 AM". 
 
-Thats about all there is to it for now. Full documentation will come after things have been cleaned up a bit (adding error checking, swapping the entry formatting for only days and only hours (typing 4 pm is faster than running this script at its current stage), etc). You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
+Thats about all there is to it for now. While this scipt is primarly besed on the `current date` function of Applescript, the formatting of the date makes heavy use of `sed` - I typically find Applescript to be needlessly complicated for formatting text. 
+
+Full documentation will come after things have been cleaned up a bit (adding error checking, swapping the entry formatting for only days and only hours (typing 4 pm is faster than running this script at its current stage), etc). Somewhat distant future plans include an [Alfred](http://www.alfredapp.com/) workflow and maybe a System Service.  
+
+You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
