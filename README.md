@@ -9,4 +9,4 @@ Formatted dates in plain text notes via applescript.
 
 - If you have a task that is due at a certain time today, type `h t`. The `h` denotes that you will be using only hours and the `t` is the number of hours from the current time the project is due. Example: 5 hours from now would be `h 5`. The result will be formatted "4 PM"
 
-Thats about all there is to it for now. Full ocumentation will come after things have been cleaned up a bit. You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
+Thats about all there is to it for now. Full documentation will come after things have been cleaned up a bit. You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
