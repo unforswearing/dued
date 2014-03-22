@@ -34,7 +34,7 @@ The methods above can be used with the `dued` Applescript Applet, Alfred Extensi
 
 **Applescript Applet**  
 
-`dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` script [exists here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an Applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters. 
+`dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` script [exists here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters. 
 
 
 <BR>
@@ -48,7 +48,7 @@ Entering `dued` before your date and/or time is the only difference between usin
 <BR>
 **OSX System Service** *(still testing, available soon)*
 
-Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  
+Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting the word `help` and entering your key combination will bring you to this page.  
 <BR>  
 
 ###To Do  
