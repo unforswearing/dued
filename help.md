@@ -22,10 +22,11 @@ Having said that, there are three basic ways to use `dued`:
 
 	For example, if today is still `Friday, March 21, 7:00 AM` and you have a task that needs to be done next Friday (but with no specific time), enter `7`. Next Friday's date (`Friday, March 28`) will be copied to your clipbaord for easy pasting.  
 	
-3. **Due Today**. If you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
+3. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
+
+	For example, if you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
 
 Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
-
 
 The methods above can be used with the `dued` Applescript Applet, Alfred Extension, or OSX System Service. However, there are a few minor differences when using `dued` via these services.  
 <BR>  
@@ -67,7 +68,7 @@ There is still a lot of work to be done with `dued`. Some of my ideas so far are
 
 2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output.  
 
-3. When using `dued` to get a date and time, it will automatically round down. So if you are running the script past the 30 minute mark, your future time will reflect the current hour, not the next hour (meaning `5:30` will show as `5` in the future, not `6`). I would like to change this (see the To Do).
+3. When using `dued` to get a date and time, it will automatically round down. So if you are running the script past the 30 minute mark, your future time will reflect the current hour, not the next hour (meaning `5:30` will show as `5` in the future, not `6`). I would like to change this.  
 
 
 
