@@ -50,7 +50,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 ###Known Issues  
 
-1. Different date formatting. `dued` currently does not allow for any changes in the way the dates are formatted. However, since the formatting is all done via `sed`/`bash`, you could adjust the script to suit your needs (you can find a few suggestions [toward the bottom of this post](http://scriptogr.am/unforswearing/post/future-dates)).  
+1. Different date formatting. `dued` currently does not allow for any changes in the way the dates are formatted. However, since the formatting is all done via `sed`/`bash`, you could adjust the script to suit your needs (you can find a few suggestions [toward the bottom of this post](http://scriptogr.am/unforswearing/post/future-dates)). 
 
 2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output. This doesn't necessarily affect my use of the script (since I don't have due dates more than 2 weeks out), but I'd like to fix this for anyone who wants more flexibility. 
 
@@ -60,9 +60,8 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 ###To Do  
 
-There is still a lot of work to be done with `dued`. Some of my ideas so far are to:  
+There is still a bit of work to be done with `dued`. Some of my ideas so far are to:  
 
-- Add the ability to round up to the next hour for scripts that have a time deadline (e.g. if it is 5:45, round up to 6pm instead of using 5pm as the deadline).
+- Correct the known issues. 
 - Add error checking/parsing to handle script failures. 
 - Add photos to the documentation (for clarity).
-- Possibly add some date formatting options via choose from a list (provided they don't slow the script down)
