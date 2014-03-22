@@ -63,7 +63,7 @@ There is still a lot of work to be done with `dued`. Some of my ideas so far are
 
 1. Different date formatting. `dued` currently does not allow for any changes in the way the dates are formatted. However, since the formatting is all done via `sed`/`bash`, you could adjust the script to suit your needs (you can find a few suggestions [toward the bottom of this post](http://scriptogr.am/unforswearing/post/future-dates)).  
 
-2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output.  
+2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output. This doesn't necessarily affect my use of the script (since I don't have due dates more than 2 weeks out), but I'd like to fix this for anyone who wants more flexibility. 
 
 3. When using `dued` to get a date and time, it will automatically round down. So if you are running the script past the 30 minute mark, your future time will reflect the current hour, not the next hour (meaning `5:30` will show as `5` in the future, not `6`). I would like to change this.  
 
