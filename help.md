@@ -52,7 +52,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output. This doesn't necessarily affect my use of the script (since I typically do not have due dates more than 2 weeks out), but I'd like to fix this for anyone who wants more flexibility. 
 
-3. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will reflect the current hour, not the next hour (meaning `5:40` will show as `5` in the future, not `6`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
+3. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
 
 If you encounter a problem with this script that is not listed above, [let me know](https://github.com/unforswearing/dued/issues).  
 <BR>
