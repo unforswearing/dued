@@ -24,7 +24,7 @@ Having said that, there are three basic ways to use `dued`:
 	
 3. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
 
-	For example, today is still draging along (`Friday, March 21, 7:00 AM`). If you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
+	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
 
 - Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
 <BR>  
@@ -36,16 +36,12 @@ The methods above can be used with the `dued` Applescript Applet, Alfred Extensi
 
 `dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` script [exists here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters. 
 
-
-<BR>
 **Alfred Workflow**
 
 The Alfred Workflow for `dued` is probably my favorite method of using this script. Like any workflow in Alfred, it requires that you enter the name of the command before entering the parameters. For example, To enter get a date and time 4 days and 4 hours from now requires you to enter `dued 4 4`. 
 
 Entering `dued` before your date and/or time is the only difference between using `dued` as an Applescript Applet and Alfred Workflow. Typing `dued help` will bring you to this page.  
 
-
-<BR>
 **OSX System Service**
 
 Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.  
