@@ -6,6 +6,8 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 Run the script, type `d t` (days and time (hours) from now), `d` (days from now), or `h t` (hours from now), and the script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only). 
 
+`dued` works on 10.6 and above. 
+
 This is what `dued` does with Alfred  
 ![dued alfred demo](https://github.com/unforswearing/dued/blob/master/images/Dued%20Alfred%20Demo.gif?raw=true)
 
