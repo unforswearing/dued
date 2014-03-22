@@ -37,7 +37,7 @@ The methods above can be used with the `dued` Applescript Applet, Alfred Extensi
 
 
 <BR>
-**Alfred Workflow** *(available soon)*
+**Alfred Workflow**
 
 The Alfred Workflow for `dued` is probably my favorite method of using this script. Like any workflow in Alfred, it requires that you enter the name of the command before entering the parameters. For example, To enter get a date and time 4 days and 4 hours from now requires you to enter `dued 4 4`. 
 
@@ -45,7 +45,7 @@ Entering `dued` before your date and/or time is the only difference between usin
 
 
 <BR>
-**OSX System Service** *(available soon)*
+**OSX System Service** *(still testing, available soon)*
 
 Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  
 <BR>  
