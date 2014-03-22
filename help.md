@@ -4,7 +4,7 @@
 
 `dued` is an applescript that takes a few simple (mostly numeric) commands copies the formatted date to your clipboard for pasting in whatever plain text editor you prefer (or in-line pasting without the clipboard if you use the system service). `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress. 
 
-For the curious, the name `dued` simply means <b>due d</b>ate, which seemed (at 2 am when I finished writing the first version of the script) exceedingly clever.  
+For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever.  
 <br>    
 
 
