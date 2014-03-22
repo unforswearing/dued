@@ -1,6 +1,5 @@
 ##dued help 
-
-<BR><BR>
+  
 ###About  
 
 `dued` is an applescript that takes a few simple (mostly numeric) commands and turns them into a formatted date for saving in whatever plain text editor you prefer. `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress. 
