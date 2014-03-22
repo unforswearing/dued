@@ -13,6 +13,8 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 Thats about all there is to it for now. While this scipt is primarly besed on the `current date` function of Applescript, the formatting of the date makes heavy use of `sed` - I typically find Applescript to be needlessly complicated for formatting text. 
 
+To use `dued` clone/fork/download the zip and have fun. Feel free to use `dued` for whatever purpose you desire. Holler at me if you have questions, compliments, or complaints.  
+
 Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation.   
 
 You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
