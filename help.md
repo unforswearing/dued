@@ -48,7 +48,7 @@ Entering `dued` before your date and/or time is the only difference between usin
 <BR>
 **OSX System Service** *(still testing, available soon)*
 
-Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting the word `help` and entering your key combination will bring you to this page.  
+Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.  
 <BR>  
 
 ###To Do  
