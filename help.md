@@ -24,7 +24,7 @@ Having said that, there are three basic ways to use `dued`:
 	
 3. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
 
-	For example, if you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
+	For example, today is still draging along (`Friday, March 21, 7:00 AM`). If you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
 
 Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
 
