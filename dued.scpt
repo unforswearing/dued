@@ -1,8 +1,14 @@
 set dued to text returned of (display dialog "How many days and hours from now?" default answer "" buttons {"OK"} default button "OK")
 
+if dued is "help" then
+	open location "https://github.com/unforswearing/dued/blob/master/help.md"
+	error number -128
+end if
+
 if dued is "" then error number -128
 
 set dued to words of dued
+
 set dayss to item 1 of dued
 
 if dayss is "h" then
@@ -31,3 +37,7 @@ else if (count of dued) is 2 then
 	set the clipboard to (do shell script "echo " & morrow & " | sed s/:[^..][0-9]//g | sed s/20..//  | sed s/' '//3")
 	
 end if
+
+--- http://github.com/unforswearing/dued
+--- http://www.github.com/unforswearing
+--- notes@theforeverarrow.com
