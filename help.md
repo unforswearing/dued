@@ -26,10 +26,11 @@ Having said that, there are three basic ways to use `dued`:
 
 	For example, today is still draging along (`Friday, March 21, 7:00 AM`). If you have a project or task that needs to be finished six hours from now, type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
 
-Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
+- Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
+<BR>  
+
 
 The methods above can be used with the `dued` Applescript Applet, Alfred Extension, or OSX System Service. However, there are a few minor differences when using `dued` via these services.  
-<BR>  
 
 **Applescript Applet**  
 
