@@ -10,7 +10,7 @@ For the curious, the name `dued` simply means <b>due d</b>ate, which seemed (at 
 
 ###Basic Usage  
 
-When using `dued` keep in mind that you will be selecting a future date and time to set as the due date for your project or task. This means that if you will need to count the number of days and hours (time) from the current day and time. 
+When using `dued` keep in mind that you will be selecting a future date and/or time to set as the due date for your project or task. This means that if you will need to count the number of days and hours (time) from the current day and time. 
 
 Having said that, there are three basic ways to use `dued`:  
 
