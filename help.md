@@ -67,4 +67,4 @@ There is still a bit of work to be done with `dued`. Some of my ideas so far are
 - Correct the known issues. 
 - Add error checking/parsing to handle script failures. 
 - Add photos to the documentation (for clarity)
-- [let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
+- [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
