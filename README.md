@@ -16,4 +16,4 @@ This is what `dued` does with Alfred
 `dued` is currently available as an Alfred Workflow, Application, Applescript, and OSX System Service/Workflow. To use `dued`, clone/fork/download the zip and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments, or complaints. I accept [issues](https://github.com/unforswearing/dued/issues) and email -- `notes @ theforeverarrow.com`.   
 
 ####dued, what?
-Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation.        You can find details about the [origins of this script here](http://scriptogr.am/unforswearing/post/future-dates). 
+Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation.        You can find details about the [pre-dued scripts here](http://scriptogr.am/unforswearing/post/future-dates). 
