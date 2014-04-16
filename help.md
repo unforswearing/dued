@@ -40,6 +40,8 @@ The Alfred Workflow for `dued` is probably my favorite method of using this scri
 
 Entering `dued` before your date and/or time is the only difference between using `dued` as an Applescript Applet and Alfred Workflow. Typing `dued help` will bring you to this page.  
 
+Finally, to be completely honest, the `dued` Alfred Workflow will probably be the most frequently updated version.  
+
 **OSX System Service**
 
 Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest and fastest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters after the task in your text editor, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.  
@@ -53,6 +55,8 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output. This doesn't necessarily affect my use of the script (since I typically do not have due dates more than 2 weeks out), but I'd like to fix this for anyone who wants more flexibility. 
 
 3. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
+	
+	**NOTE** To get around this issue (and because I don't ever use due times) `dued` v 0.0.2 will *not* have a time  option. This applies to the Alfred Workflow only. The service and application will retain this functionality. I will post the raw code for the time option, in case anyone wants to keep it with the workflow. 
 
 If you encounter a problem with this script that is not listed above, [let me know](https://github.com/unforswearing/dued/issues).  
 <BR>
