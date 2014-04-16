@@ -8,10 +8,9 @@ Run the script, type `d t` (days and time (hours) from now), `d` (days from now)
 
 `dued` works on 10.6 and above. 
 
-This is what `dued` does with Alfred  
-![dued alfred demo](https://github.com/unforswearing/dued/blob/master/images/Dued%20Alfred%20Demo.gif?raw=true)
-
-
+This is what `dued` does with Alfred    
+<BR>  
+![dued demo](https://raw.githubusercontent.com/unforswearing/dued/master/images/DuedDemo2.gif)    
 ####dued, yeah!
 `dued` is currently available as an Alfred Workflow, Application, Applescript, and OSX System Service/Workflow. To use `dued`, clone/fork/download the zip and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments, or complaints. I accept [issues](https://github.com/unforswearing/dued/issues) and email -- `notes @ theforeverarrow.com`.   
 
