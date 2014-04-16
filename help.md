@@ -16,6 +16,8 @@ Having said that, there are three basic ways to use `dued`:
 
 	For example, if today is `Friday, March 21, 7:00 AM` and you have a task that needs to be completed 3 days and 4 hours from now, you would simply enter `3 4`. The script will copy the formatted due date (`Monday, March 24, 11 AM`) to your clipboard. 
 
+This option will be removed in upcoming versions of `dued`. See item 3 in [the Known Issues section](https://github.com/unforswearing/dued/blob/master/help.md#known-issues) for more details.    
+
 2. **Date only**. To only add the *date* to your note, type `d`, which is the day in the future you would like to use as a due date.  
 
 	For example, if today is still `Friday, March 21, 7:00 AM` and you have a task that needs to be done next Friday (but with no specific time), enter `7`. Next Friday's date (`Friday, March 28`) will be copied to your clipbaord for easy pasting.  
@@ -56,7 +58,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 3. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
 	
-	**NOTE** To get around this issue (and because I don't ever use due times) `dued` v 0.0.2 will *not* have a time  option. This applies to the Alfred Workflow only. The service and application will retain this functionality. I will post the raw code for the time option, in case anyone wants to keep it with the workflow. 
+	**NOTE** To get around this issue (and because I don't ever use due times) `dued` v 0.0.2 will *not* have a **Date And Time**  option. This applies to the Alfred Workflow only. The service and application will retain this functionality. I will post the raw code for the time option, in case anyone wants to keep it with the workflow. 
 
 If you encounter a problem with this script that is not listed above, [let me know](https://github.com/unforswearing/dued/issues).  
 <BR>
