@@ -67,6 +67,7 @@ If you encounter a problem with this script that is not listed above, [let me kn
 There is still a bit of work to be done with `dued`. Some of my ideas so far are to:  
 
 - Correct the known issues. 
+- Add functionality for searching for past dates
 - Add error checking/parsing to handle script failures. 
 - Add photos to the documentation (for clarity)
 - [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
