@@ -38,7 +38,9 @@ The methods above can be used with the `dued` Applescript Applet, Alfred Extensi
 
 **Applescript Applet and Script**  
 
-`dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` scripts [exist here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters, which only saved a marginal amount of time. 
+`dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` scripts [exist here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters, which only saved a marginal amount of time.  
+
+*After V 0.0.2 the applet will not be updated. I will continue to post the script, but this section of the help page will be removed.*   
 
 **Alfred Workflow**
 
