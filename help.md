@@ -8,7 +8,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 <br>    
 
 
-###Basic Usage  
+###Usage  
 
 When using `dued` keep in mind that you will be selecting a future date and/or time to set as the due date for your project or task. This means that if you will need to count the number of days and hours (time) from the current day and time. 
 
