@@ -13,7 +13,7 @@ Run the script, type
 - `y d` (yesterday and days from today)   
 
 The script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only).   
-
+   
 `dued` version 0.0.2 works on 10.6 and above.   
 
 This is what `dued` does with Alfred    
