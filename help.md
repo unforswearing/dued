@@ -38,7 +38,7 @@ Having said that, there are three basic ways to use `dued`:
 
 The methods above can be used with the `dued` Applescript Applet, Alfred Extension, or OSX System Service. However, there are a few minor differences when using `dued` via these services.  
 
-**Applescript Applet**  
+**Applescript Applet and Script**  
 
 `dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` scripts [exist here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters, which only saved a marginal amount of time. 
 
