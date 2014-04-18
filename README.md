@@ -4,9 +4,17 @@ Alfred extension and system service for formatted dates via applescript.
 
 I take a lot of notes in plain text and often want to add a due date to current tasks, but I'm usually too lazy to open up a calendar. This script allows me to quickly grab a future date or time and copy it to my clipboard without leaving my current note taking application.  
 
-Run the script, type `d t` (days and time (hours) from now), `d` (days from now), or `h t` (hours from now), and the script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only). 
+Run the script, type 
 
-`dued` works on 10.6 and above. 
+- `d t` (days and time (hours) from now) 
+- `d` (days from now)   
+- `h t` (hours from now)   
+- `0` (zero) for today's date  
+- `y d` (yesterday and days from today)   
+
+The script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only).   
+
+`dued` works on 10.6 and above.   
 
 This is what `dued` does with Alfred    
 <BR>  
