@@ -10,9 +10,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 
 ###Usage  
 
-When using `dued` keep in mind that you will be selecting a future date and/or time to set as the due date for your project or task. This means that if you will need to count the number of days and hours (time) from the current day and time. 
-
-Having said that, there are three basic ways to use `dued`:  
+`dued` has five basic functions:     
 
 1. **Date and Time**. To add the *date* and *time* to your note, type `d t`, which is the `day` and `time` in the future you would like to set as a deadline for your project or task. 
 
@@ -22,13 +20,13 @@ Having said that, there are three basic ways to use `dued`:
 
 	For example, if today is still `Friday, March 21, 7:00 AM` and you have a task that needs to be done next Friday (but with no specific time), enter `7`. Next Friday's date (`Friday, March 28`) will be copied to your clipbaord for easy pasting.  
 	
-4. **Today's Date**. If you just need today's *date* for note (without the time), type `0` (zero). `Friday, March 21` will be copied to the clipboard.  
+3. **Today's Date**. If you just need today's *date* for note (without the time), type `0` (zero). `Friday, March 21` will be copied to the clipboard.  
 	
-5. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
+4. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
 
 	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard.   
 	
-6. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y t`. The `y` indicates that you are searching for a date in the past.   
+5. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y t`. The `y` indicates that you are searching for a date in the past.   
 
 	For example, today has picked up a little, but you forgot to add the date to an item you completed two days ago. Type `y 2`. The script will copy `Wednesday, March 26` to the clipboard.  
 	
