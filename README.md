@@ -12,7 +12,7 @@ This is what `dued` does with Alfred
 <BR>  
 ![dued demo](https://raw.githubusercontent.com/unforswearing/dued/master/images/DuedDemo2.gif)   
 
-**What's new in Version 0.0.2** (April 17, 2014)    
+*What's new in Version 0.0.2* (April 17, 2014)    
 
 - Copy todays date by entering `0`   
 - Copy dates in the past by typing `y` and the number of days from today (`y 1` would be yesterday, for example)  
