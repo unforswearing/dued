@@ -78,6 +78,7 @@ There is still a bit of work to be done with `dued`. Some of my ideas so far are
 - Add photos to the documentation (for clarity)  
 - [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
 
-done!  
+> Done as of Thursday, April 17, 2014:
+>  
 > ~~Add functionality for searching for past dates.~~ available in version 0.0.2     
 > ~~Add error checking/parsing to handle script failures.~~ limited availability in version 0.0.2     
