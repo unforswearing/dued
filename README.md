@@ -18,7 +18,7 @@ The script will copy the formatted date to your clipboard or replace the text in
 
 This is what `dued` does with Alfred    
 <BR>  
-![dued demo](https://raw.githubusercontent.com/unforswearing/dued/master/images/DuedDemo2.gif)   
+![dued demo v 0.0.2](https://raw.githubusercontent.com/unforswearing/dued/master/images/duedv2.gif)   
 
 ####dued, yeah!
 `dued` is currently available as an Alfred Workflow, Application, Applescript, and OSX System Service/Workflow. To use `dued`, clone/fork/download the zip and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments, or complaints. I accept [issues](https://github.com/unforswearing/dued/issues) and email -- `notes @ theforeverarrow.com`.   
