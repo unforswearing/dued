@@ -26,7 +26,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 
 	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard.   
 	
-5. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y t`. The `y` indicates that you are searching for a date in the past.   
+5. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y d`. The `y` indicates that you are searching for a date in the past.   
 
 	For example, today has picked up a little, but you forgot to add the date to an item you completed two days ago. Type `y 2`. The script will copy `Wednesday, March 26` to the clipboard.  
 	
