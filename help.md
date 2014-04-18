@@ -74,6 +74,7 @@ If you encounter a problem with this script that is not listed above, [let me kn
 
 There is still a bit of work to be done with `dued`. Some of my ideas so far are to:  
 
+- Change months from text to number (e.g. from `Thursday, April 17` to `Thursday, 4/17`  
 - Add photos to the documentation (for clarity)  
 - [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
 
