@@ -30,7 +30,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 	
 5. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y d`. The `y` indicates that you are searching for a date in the past.   
 
-	For example, today has picked up a little, but you forgot to add the date to an item you completed two days ago. Type `y 2`. The script will copy `Wednesday, March 26` to the clipboard.  
+	For example, today (`Friday, March 21`) has picked up a little, but you forgot to add the date to an item you completed two days ago. Type `y 2`. The script will copy `Wednesday, March 19` to the clipboard.  
 	
 - Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
 <BR>  
