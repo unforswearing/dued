@@ -2,9 +2,11 @@
   
 ###About  
 
-`dued` is an applescript that takes a few simple (mostly numeric) commands copies the formatted date to your clipboard for pasting in whatever plain text editor you prefer (or in-line replacement without the clipboard if you use the system service). `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress. For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever.   
+`dued` is an applescript that takes a few simple (mostly numeric) commands copies the formatted date to your clipboard for pasting in whatever plain text editor you prefer (or in-line replacement without the clipboard if you use the system service). `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress.   
 
-As of 4/17/14, `dued` is currently at version 0.0.2  
+For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever. The simple origins of this script can be [found here](https://gist.github.com/unforswearing/9677819) with an [explanation of the script here](http://scriptogr.am/unforswearing/post/future-dates).  
+  
+As of 4/17/14, `dued` is currently at version 0.0.2    
 <br>    
 
 
