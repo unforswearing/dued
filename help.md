@@ -2,7 +2,9 @@
   
 ###About  
 
-`dued` is an applescript that takes a few simple (mostly numeric) commands copies the formatted date to your clipboard for pasting in whatever plain text editor you prefer (or in-line replacement without the clipboard if you use the system service). `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress. For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever.  
+`dued` is an applescript that takes a few simple (mostly numeric) commands copies the formatted date to your clipboard for pasting in whatever plain text editor you prefer (or in-line replacement without the clipboard if you use the system service). `dued` was originally conceived as a way to speed up the process of adding future due dates to tasks and projects and is still very much a work in progress. For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever.   
+
+As of 4/17/14, `dued` is currently at version 0.0.2  
 <br>    
 
 
@@ -20,10 +22,16 @@ Having said that, there are three basic ways to use `dued`:
 
 	For example, if today is still `Friday, March 21, 7:00 AM` and you have a task that needs to be done next Friday (but with no specific time), enter `7`. Next Friday's date (`Friday, March 28`) will be copied to your clipbaord for easy pasting.  
 	
-3. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
+4. **Today's Date**. If you just need today's *date* for note (without the time), type `0` (zero). `Friday, March 21` will be copied to the clipboard.  
+	
+5. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
 
-	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard. 
+	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard.   
+	
+6. **Past Dates**. If you have forgotten to update a done item, or want to add a *date* for something you completed yesterday (or any day before), enter `y t`. The `y` indicates that you are searching for a date in the past.   
 
+	For example, today has picked up a little, but you forgot to add the date to an item you completed two days ago. Type `y 2`. The script will copy `Wednesday, March 26` to the clipboard.  
+	
 - Finally, if you find that you need a reminder of the syntax, typing `help` will bring you directly to this page. 
 <BR>  
 
@@ -66,8 +74,8 @@ If you encounter a problem with this script that is not listed above, [let me kn
 
 There is still a bit of work to be done with `dued`. Some of my ideas so far are to:  
 
-- Correct the known issues. 
-- Add functionality for searching for past dates
-- Add error checking/parsing to handle script failures. 
-- Add photos to the documentation (for clarity)
+- Add photos to the documentation (for clarity)  
 - [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
+
+- ~~Add functionality for searching for past dates.~~ available in version 0.0.2     
+- ~~Add error checking/parsing to handle script failures.~~ limited availability in version 0.0.2     
