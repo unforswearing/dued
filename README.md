@@ -1,6 +1,6 @@
 dued
 ====
-Formatted dates for plain text notes via applescript. 
+Alfred extension and system service for formatted dates via applescript. 
 
 I take a lot of notes in plain text and often want to add a due date to current tasks, but I'm usually too lazy to open up a calendar. This script allows me to quickly grab a future date or time and copy it to my clipboard without leaving my current note taking application.  
 
