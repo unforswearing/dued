@@ -46,7 +46,7 @@ The Alfred Workflow for `dued` is probably my favorite method of using this scri
 
 Entering `dued` before your date and/or time is the only difference between using `dued` as an Applescript Applet and Alfred Workflow. Typing `dued help` will bring you to this page.  
 
-Finally, to be completely honest, the `dued` Alfred Workflow will probably be the most frequently updated version.  
+The `dued` Alfred Workflow will probably be the most well maintained version.  
 
 **OSX System Service**
 
