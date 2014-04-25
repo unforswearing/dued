@@ -6,11 +6,11 @@ I take a lot of notes in plain text and often want to add a due date to current 
 
 Run the script, type 
 
-- `0` (zero) for today's date  
-- `h t` (hours from now)   
-- `d` (days from now)   
-- `d t` (days and time (hours) from now)   
-- `y d` (yesterday and days from today)     
+- `0` - zero for today's date  
+- `h t` - hours (`h`) from now   
+- `d` - days (`d`) from now   
+- `d t` - days and time (`t` represents hours) from now   
+- `y d` - past date (`y`) and the number of days from today     
 
 The script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only).   
    
