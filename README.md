@@ -14,7 +14,8 @@ Run the script, type
 
 The script will copy the formatted date to your clipboard or replace the text in your editor (text replacement occurs in the OSX Service only).   
    
-`dued` version 0.0.2 works on 10.6 and above.   
+`dued` version 0.0.2  Alfred Workflow and system service work on 10.6 and above.   
+The `dued` script possibly works for earlier versions (untested).   
 
 This is what `dued` does with Alfred    
 <BR>  
