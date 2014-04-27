@@ -79,7 +79,9 @@ There is still a bit of work to be done with `dued`. Some of my ideas so far are
 - Change months from text to number (e.g. from `Thursday, April 17` to `Thursday, 4/17`
 - Round hours up or down depending whether the script is run before or after the half hour mark.  
 - Create a `reverse dued` function: entering future date returns the number of days from that date.    
-- Add photos to the documentation (for clarity)  
-- [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.  
+- Add photos to the documentation (for clarity)      
 - ~~Add functionality for searching for past dates.~~ available in version 0.0.2     
 - ~~Add error checking/parsing to handle script failures.~~ limited availability in version 0.0.2     
+
+
+[Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.
