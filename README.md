@@ -25,7 +25,7 @@ This is what `dued` does with Alfred
 `dued` is currently available as an Alfred Workflow, Application, Applescript, and OSX System Service/Workflow. To use `dued`, clone/fork/download the zip and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments, or complaints. I accept [issues](https://github.com/unforswearing/dued/issues) and email -- `notes @ theforeverarrow.com`.   
 
 ####dued, what?
-Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation.        You can find details about the [pre-dued scripts here](http://scriptogr.am/unforswearing/post/future-dates).   
+`dued` started as a [very simple way to get tomorrows date](http://scriptogr.am/unforswearing/post/future-dates) but it quickly expanded. Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation. You can also run the script and type `help` or `dued help` in the Alfred workflow and the help page will open in your default browser.   
 
 ####dued, more!!  
 I do not want to overload `dued` with options, but I am working on a few ideas. Check the [To Do section](https://github.com/unforswearing/dued/blob/master/help.md#to-do) of the [Help page](https://github.com/unforswearing/dued/blob/master/help.md) for info.  
