@@ -53,7 +53,8 @@ The `dued` Alfred Workflow will probably be the most well maintained version.
 
 Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest and fastest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters after the task in your text editor, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.    
 
-**Ruby Script**  
+**Ruby Script**   
+
 [I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts), so please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` (for development purposes), but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.   
 <BR>  
 
