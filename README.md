@@ -1,4 +1,4 @@
-dued
+![dued](https://raw.githubusercontent.com/unforswearing/images/master/calendar_zoom.ico) dued  
 ====
 Alfred extension, system service, and [ruby script](https://github.com/unforswearing/Ruby/blob/master/dued.rb) for formatted dates via applescript. 
 
