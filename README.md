@@ -1,6 +1,6 @@
 dued
 ====
-Alfred extension, system service, and [command line tool](https://github.com/unforswearing/Ruby/blob/master/dued.rb) for formatted dates via applescript. 
+Alfred extension, system service, and [ruby script](https://github.com/unforswearing/Ruby/blob/master/dued.rb) for formatted dates via applescript. 
 
 `dued` version 0.0.2  Alfred Workflow and system service work on 10.6 and above.   
 The `dued` script possibly works on earlier versions (untested).   
