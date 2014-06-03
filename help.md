@@ -27,7 +27,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 	
 3. **Today's Date**. If you just need today's *date* for note (without the time), type `0` (zero). `Friday, March 21` will be copied to the clipboard.  
 	
-4. **Due Today**. If you only needed to add the *time* to a note (specifically, if you had a project due later today), enter `h t`. The `h` denotes that you will not be using the day parameter. 
+4. **Due Today**. If you only needed to add the *time* to a note (if you had a project due later today, for example), enter `h t`. The `h` denotes that you will not be using the day parameter. 
 
 	For example, today is still draging along (`Friday, March 21, 7:00 AM`) and you have a project or task that needs to be finished six hours from now. Type `h 6`. The script will copy `Today at 1 PM` to your clipboard.   
 	
