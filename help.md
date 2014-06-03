@@ -45,9 +45,8 @@ The methods above can be used with the `dued` Alfred Extension or OSX System Ser
 
 The Alfred Workflow for `dued` is probably my favorite method of using this script. Like any workflow in Alfred, it requires that you enter the script keyword before entering the parameters. For example, to get a date and time 4 days and 4 hours from now requires you to enter `dued 4 4`. 
 
-Entering `dued` before your date and/or time is the only difference between using `dued` as an Applescript Applet and Alfred Workflow. Typing `dued help` will bring you to this page.  
+Typing `dued help` will bring you to this page.  
 
-The `dued` Alfred Workflow will probably be the most well maintained version.  
 
 **OSX System Service**
 
@@ -55,7 +54,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 **Ruby Script**   
 
-[I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts), so please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` (for development purposes), but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.   
+[I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts), so please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` (for development purposes), but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.    
 <BR>  
 
 
