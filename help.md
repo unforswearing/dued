@@ -1,4 +1,9 @@
 ##dued help 
+   * [About](#about)
+   * [Usage](#usage)
+   * [Known Issues](#known-issues)
+   * [To Do](#to-do)
+
   
 ###About  
 
