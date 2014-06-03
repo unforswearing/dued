@@ -39,13 +39,7 @@ As of 4/17/14, `dued` is currently at version 0.0.2
 <BR>  
 
 
-The methods above can be used with the `dued` Applescript Applet, Alfred Extension, or OSX System Service. However, there are a few minor differences when using `dued` via these services.  
-
-**Applescript Applet and Script**  
-
-`dued` was originally designed as an Applescript that would only fetch the date in the future (the pre-`dued` scripts [exist here](https://gist.github.com/unforswearing/9677819)). After using the current version of `dued` as an applet for a few days, I was bit bogged down by its speed. While it still affords me the ease of adding future dates to my notes when I want them, I still had to launch the application and type in the parameters, which only saved a marginal amount of time.  
-
-*After V 0.0.2 the applet will not be updated. I will continue to post the script, but this section of the help page will be removed.*   
+The methods above can be used with the `dued` Alfred Extension or OSX System Service. However, there are a few minor differences when using `dued` via these services.  
 
 **Alfred Workflow**
 
@@ -57,7 +51,10 @@ The `dued` Alfred Workflow will probably be the most well maintained version.
 
 **OSX System Service**
 
-Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest and fastest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters after the task in your text editor, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.  
+Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest and fastest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters after the task in your text editor, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.    
+
+**Ruby Script**  
+[I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts). Please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` (for development purposes), but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.   
 <BR>  
 
 
@@ -65,9 +62,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
    
 1. Different date formatting. `dued` currently does not allow for any changes in the way the dates are formatted. However, since the formatting is all done via `sed`/`bash`, you could adjust that portion of the script to suit your needs (you can find a few suggestions [toward the bottom of this post](http://scriptogr.am/unforswearing/post/future-dates)). 
 
-2. `dued` occasionally gets weird with dates that are more than 20 days in the future. `30` and `90` seem to cause a lot of issues with the output. This doesn't necessarily affect my use of the script (since I typically do not have due dates more than 2 weeks out), but I'd like to fix this for anyone who wants more flexibility. **Note** This seems to be an issue with the application and script only.   
-
-3. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
+2. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run. 
 	
 	**NOTE** I rarely use the **Date and Time** option, so this issue will likely remain open.  
 
