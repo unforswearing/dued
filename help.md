@@ -43,9 +43,7 @@ The methods above can be used with the `dued` Alfred Extension or OSX System Ser
 
 **Alfred Workflow**
 
-The Alfred Workflow for `dued` is probably my favorite method of using this script. Like any workflow in Alfred, it requires that you enter the script keyword before entering the parameters. For example, to get a date and time 4 days and 4 hours from now requires you to enter `dued 4 4`. 
-
-Typing `dued help` will bring you to this page.  
+The Alfred Workflow for `dued` is probably my favorite method of using this script. Like any workflow in Alfred, it requires that you enter the script keyword before entering the parameters. For example, to get a date and time 4 days and 4 hours from now requires you to enter `dued 4 4`. Typing `dued help` will bring you to this page.    
 
 
 **OSX System Service**
