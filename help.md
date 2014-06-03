@@ -52,7 +52,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 **Ruby Script**   
 
-[I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts), so please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` (for development purposes), but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.    
+[I have created a version of `dued` in ruby](https://github.com/unforswearing/Ruby/blob/master/dued.rb) that has limited functionality compared to the above methods. Specifically, `dued` in ruby cannot accurately parse times. The `dued` ruby script is very very much still a work in progress and was started as a way to learn the language through doing something practical (like re-writing applescripts), so please take that into account if you plan to use this version. I currently have script saved as alias `dued` in my `bash_profile` for development purposes, but do whatever you see fit. I plan on maintaining the ruby `dued` along side the sytem service and Alfred workflow.    
 <BR>  
 
 
