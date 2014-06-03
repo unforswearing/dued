@@ -1,6 +1,8 @@
-dued  
 ![dued](https://raw.githubusercontent.com/unforswearing/images/master/calendar_zoom.ico)    
-====
+
+====  
+## dued 
+
 Alfred extension, system service, and [ruby script](https://github.com/unforswearing/Ruby/blob/master/dued.rb) for formatted dates via applescript. 
 
 `dued` version 0.0.2  Alfred Workflow and system service work on 10.6 and above.   
