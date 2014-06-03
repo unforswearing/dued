@@ -9,7 +9,7 @@ I take a lot of notes in plain text and often want to add a due date to current 
    
 For the curious, the name `dued` simply means <b>due d</b>ate, which (at 2 am when I finished writing the first version of the script) seemed exceedingly clever. The simple origins of this script can be [found here](https://gist.github.com/unforswearing/9677819) with an [explanation of the script here](http://scriptogr.am/unforswearing/post/future-dates).  
   
-As of 4/17/14, `dued` is currently at version 0.0.2    
+As of 4/17/14, `dued` is currently at version 0.2    
 <br>    
 
 
@@ -78,8 +78,8 @@ There is still a bit of work to be done with `dued`. Some of my ideas so far are
 - Create a separate `dued` (maybe called `tued`) that will handle all time based deadlines.   
 - Add documentation as comments in the script  
 - Add photos to the documentation (for clarity)      
-- ~~Add functionality for searching for past dates.~~ available in version 0.0.2     
-- ~~Add error checking/parsing to handle script failures.~~ limited availability in version 0.0.2     
+- ~~Add functionality for searching for past dates.~~ available in version 0.2     
+- ~~Add error checking/parsing to handle script failures.~~ limited availability in version 0.2     
 
 
 [Let me know](https://github.com/unforswearing/dued/issues) if you have any feature requests.
