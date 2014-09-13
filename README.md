@@ -3,8 +3,7 @@
 
 **Dued** is an Alfred extension and system service for formatted dates.  
 
-`dued` version 0.2  Alfred Workflow and system service work on 10.6 and above.   
-The `dued` script possibly works on earlier versions (untested).   
+`dued` version 0.2  Alfred Workflow and system service work on 10.6 and above. The `dued` script possibly works on earlier versions (untested).   
 
 This is what `dued` does with Alfred    
 <BR>  
