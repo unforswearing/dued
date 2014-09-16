@@ -1,5 +1,17 @@
 #!/usr/bin/ruby
 
+# dued   
+#  
+# Usage:  
+# 	dued -d <days from now>  
+# 		print and copy the date x days from now  
+# 		example - 'dued -d 2' prints the date two days from now  
+# 	dued -y <days before today>  
+# 		print and copy the date x days before today  
+# 		example - 'dued -y 5' prints the date five days before today  
+# 	dued -t  
+# 		print todays date   
+
 require 'date'
 require "time"
 
@@ -33,16 +45,22 @@ system("echo #{dued} | sed 's/20..-//' | sed 's/0//g' | sed 's/-/\\//' | pbcopy 
 # system("echo #{dued} } | awk '{ print $2 }' | sed 's/:[0-9].//' | pbcopy | pbpaste")
 # find a way to use AM and PM
 
-when "-help" 
-puts "dued help to be written."
+when "-help" # print help text
+puts "
+Usage:
+	dued -d <days from now>
+		print and copy the date x days from now
+		example - 'dued -d 2' prints the date two days from now
+	dued -y <days before today>
+		print and copy the date x days before today
+		example - 'dued -y 5' prints the date five days before today
+	dued -t
+		print todays date"
 
-when nil
-puts "Dued requires an argument. Type 'dued -h' for more information"
+when nil # when no argument is entered
+puts "Dued requires an argument. Type 'dued -help' for more information"
 
 else
-	puts "That is probably not a valid command. For a list of options dued will accept, type 'dued -h'."
+puts "That is probably not a valid command. For a list of options dued will accept, type 'dued -help'."
 
 end
-
-# TODO: find a way to have a user enter a date and return the number of days until that date
-# TODO: fix the 'time' and 'date and time' options  
