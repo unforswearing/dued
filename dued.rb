@@ -1,16 +1,16 @@
 #!/usr/bin/ruby
 
-# dued   
-#  
-# Usage:  
-# 	dued -d <days from now>  
-# 		print and copy the date x days from now  
-# 		example - 'dued -d 2' prints the date two days from now  
-# 	dued -y <days before today>  
-# 		print and copy the date x days before today  
-# 		example - 'dued -y 5' prints the date five days before today  
-# 	dued -t  
-# 		print todays date   
+# dued
+#
+# Usage:
+# 	dued -d <days from now>
+# 		print and copy the date x days from now
+# 		example - 'dued -d 2' prints the date two days from now
+# 	dued -y <days before today>
+# 		print and copy the date x days before today
+# 		example - 'dued -y 5' prints the date five days before today
+# 	dued -t
+# 		print todays date
 
 require 'date'
 require "time"
@@ -30,14 +30,14 @@ system("echo #{dued} | sed 's/20..-//' | sed -e '$ ! s/0//' | sed 's/-/\\//' | s
 when "-d" #Find a date some days in the future
 today = Date.today
 dued = today + num
-system("echo #{dued} | sed 's/20..-//' | sed 's/0//g' | sed 's/-/\\//' | pbcopy | pbpaste")
+system("echo #{dued} | sed 's/20..-//;s/-/\\//' | pbcopy | pbpaste")
 
 when "-t" #Copy today's date
 today = Date.today
 dued = today
-system("echo #{dued} | sed 's/20..-//' | sed 's/0//g' | sed 's/-/\\//' | pbcopy | pbpaste")
+system("echo #{dued} | sed 's/20..-//;s/-/\\//' | pbcopy | pbpaste")
 
-# the original 'dued' script has a time option. 
+# the original 'dued' script has a time option.
 # that option in this ruby script is not functioning exactly as I need it to just yet.
 # ---------------------
 # when "-w"
