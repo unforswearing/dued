@@ -66,6 +66,7 @@ If you encounter a problem with this script that is not listed above, [let me kn
 
 There is still a bit of work to be done with `dued`. Some of my ideas so far are to:  
 
+- [ ] Rewrite this help page for clarity!  
 - [ ] Change months from text to number (e.g. from `Thursday, April 17` to `Thursday, 4/17`) (This is currently possible in the `dued` ruby script.)
 - [ ] Round hours up or down depending whether the script is run before or after the half hour mark.  
 - [ ] Add documentation as comments in the script  
