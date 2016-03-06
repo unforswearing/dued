@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <br>   
-<i class="fa fa-calendar fa-5x"></i>
+<i class="fa fa-calendar fa-5x"></i>  
+<br>  
 
 **Dued** is an Alfred extension and system service for formatted dates.  
    
