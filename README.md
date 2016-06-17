@@ -14,7 +14,7 @@ https://github.com/encharm/Font-Awesome-SVG-PNG/blob/master/black/png/128/calend
 `dued` started as a very simple way to get tomorrows date but it quickly expanded. Visit the [dued Help page](https://github.com/unforswearing/dued/blob/master/help.md) for a bit of documentation. You can also run the script and type `help` or `dued help` in the Alfred workflow and the help page will open in your default browser. The `dued` Alfred workflow and system service are written in AppleScript.
 
 ####dued, yeah!
-To use `dued`, download whatever version will suit your needs and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments, or complaints -- `notes @ theforeverarrow.com`.   
+To use `dued`, download whatever version will suit your needs and have fun fulfilling your hearts desires. Holler at me if you have questions, compliments or complaints.   
      
 
 ####dued, more!!  
