@@ -50,7 +50,7 @@ The Alfred Workflow for `dued` is probably my favorite method of using this scri
 Although Alfred is my favorite way to use `dued`, the OSX System Service is probably the easiest and fastest. Download and install the service, then bind it to a key combination. After doing those two things, you only need to type your parameters after the task in your text editor, highlight to select them, and enter your key combo. The System Service will replace the parameters with the formatted date, all directly into the application, with no need to paste from your clipboard.  Highlighting/selecting the word `help` and entering your key combination will bring you to this page.
 
 
-###Known Issues
+### Known Issues
 
 1. Different date formatting. `dued` currently does not allow for any changes in the way the dates are formatted. However, since the formatting is all done via `sed`/`bash`, you could adjust that portion of the script to suit your needs (you can find a few suggestions [toward the bottom of this post](http://unforswearing.tumblr.com/post/91158087127/future-dates)).
 
@@ -60,4 +60,3 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 If you encounter a problem with this script that is not listed above, [let me know](https://github.com/unforswearing/dued/issues).
 <BR>
-  
