@@ -2,7 +2,7 @@
 # set dued to q
 # and be sure to:
 #	  - comment out the "set dued to text tell current application to display notification ed..." line below this text
-#   - replace all "tell current application to display notification" commands with "tell current application to display notification "
+#   - replace all "tell current application to display notification" commands with "return"
 
 set dued to text returned of (display dialog "How many days and hours from now?" default answer "" buttons {"OK"} default button "OK")
 
