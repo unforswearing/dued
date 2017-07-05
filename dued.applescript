@@ -1,6 +1,7 @@
 # This script is for standalone use. If you would like to use the script as an Alfred Workflow, uncomment the following:
 # set dued to q
-# and be sure to:
+
+# Also be sure to:
 #	  - comment out the "set dued to text tell current application to display notification ed..." line below this text
 #   - replace all "tell current application to display notification" commands with "return"
 
