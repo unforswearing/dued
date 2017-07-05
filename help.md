@@ -2,7 +2,6 @@
    * [About](#about)
    * [Usage](#usage)
    * [Known Issues](#known-issues)
-   * [To Do](#to-do)
 
 
 ### About
@@ -56,7 +55,7 @@ Although Alfred is my favorite way to use `dued`, the OSX System Service is prob
 
 2. When using `dued` to get a date and time, the time will reflect the current hour. If you are running the script past the 30 minute mark, your future time will be based on the hour you ran the script, not the next hour (meaning if you ran the script at `5:40 PM` will show as `5 PM` on your clipboard, not `6 PM`). I would like to change this so that tasks assigned with a future date and time will reflect the latest time possible, based on when the script is run.
 
-	**NOTE** I rarely use the **Date and Time** option, so this issue will likely remain open.
+	**NOTE** I rarely use the **Date and Time** option, so this issue will likely remain unresolved. Feel free to open a pull request!  
 
 If you encounter a problem with this script that is not listed above, [let me know](https://github.com/unforswearing/dued/issues).
 <BR>
