@@ -1,7 +1,8 @@
-set dued to text returned of (display dialog "How many days and hours from now?" default answer "" buttons {"OK"} default button "OK")
+# This script is for standalone use. If you would like to use the script as an Alfred Workflow, uncomment the following:
+# set dued to q
+# and be sure to comment out the "set dued to text returned..." line below this text
 
-### set dued to q 
-### (the above is for alfred, replace "display dialog" line with set dued to q)
+set dued to text returned of (display dialog "How many days and hours from now?" default answer "" buttons {"OK"} default button "OK")
 
 if dued is "help" then
 	tell application "Finder"
@@ -26,15 +27,15 @@ if dayss is "h" then
 	set dtoday to "Today at " & dtoday
 	set the clipboard to dtoday
 	return "Today's due time has been copied to the clipboard"
-	
+
 else if (count of dued) is 1 then
 	set hourss to "0"
-	
+
 	if dayss is "0" then
 		set morrow to current date
 		set the clipboard to (do shell script "echo " & morrow & " | sed s/:[^..][0-9]//g | sed s/20..//  | sed s/,[^,]*$//")
 		return "Today's date has been copied to the clipboard"
-		
+
 	else if dayss is greater than "0" then
 		set morrow to current date
 		set morrow to morrow + dayss * days
@@ -43,7 +44,7 @@ else if (count of dued) is 1 then
 		set the clipboard to (do shell script "echo " & morrow & " | sed s/:[^..][0-9]//g | sed s/20..//  | sed s/,[^,]*$//")
 		return "The due date has been copied to the clipboard"
 	end if
-	
+
 else if (count of dued) is 2 then
 	if dayss is "y" then
 		set past to item 2 of dued
@@ -53,7 +54,7 @@ else if (count of dued) is 2 then
 		set morrow to morrow as text
 		set the clipboard to (do shell script "echo " & morrow & " | sed s/:[^..][0-9]//g | sed s/20..//  | sed s/,[^,]*$//")
 		return "The past date has been copied to the clipboard"
-		
+
 	else if dayss is not "y" then
 		set hourss to item 2 of dued
 		set morrow to current date
