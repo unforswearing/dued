@@ -13,7 +13,7 @@ https://github.com/encharm/Font-Awesome-SVG-PNG/blob/master/black/png/128/calend
 
 ## dued, what?
 
-`dued` started as a very simple way to get tomorrows date but it quickly expanded. The `dued` Alfred workflow and system service are written in AppleScript.
+`dued` started as a very simple way to get the date for the next day (or two) but it quickly expanded. The `dued` Alfred workflow and system service are written in AppleScript.
 
 ## dued, yeah!
 
